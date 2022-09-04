@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, rgb(23, 132, 255), rgb(88, 228, 238));
+    text-align: center;
+    overflow: hidden;
+}
+
+.water-container {
+    height: 100vh;
+
+    
+}
+h1 {
+    margin: 10px 0 0;
+
+}
+
+h3 {
+    font-weight: 500;
+    margin: 10px 25px;
+}
+
+.glasses {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 290px;
+    margin: 0 auto;
+
+}
+
+.glass {
+    background: rgb(248, 249, 250);
+    border: 2.3px solid rgb(7, 7, 104);
+    width:  180px;
+    height: 300px;
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.big.glass {
+    margin: 0 auto;
+    border-radius: 0 0 24px 24px;
+    border: 4.3px solid rgb(7, 7, 104);
+}
+
+.glass.small-glass {
+    width:  45px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px 10px;
+    transition: 0.43s ease-in;
+    justify-content: center;
+}
+
+.glass.small-glass.full {
+    background-color: #2098dd;
+    color: aliceblue;
+}
+
+#remains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 0.43s ease;
+}
+
+#litro {
+    font-size: 1em;
+}
+
+#remains small {
+    font-size: 0.7em;
+}
+
+.pct {
+    background-color: #2098dd;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    height: 0;
+    transition: 0.43s ease;
+    text-align: center;
+    color: rgb(9, 9, 134);
+}
+
+.select-text {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
